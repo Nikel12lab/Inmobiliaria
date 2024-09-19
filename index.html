@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmobiliaria</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome -->
+</head>
+<body>
+    <header class="header">
+        <div class="menu">
+            <div class="logo">Mi Inmobiliaria</div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#popular">Inmuebles Populares</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-txt">
+            <h1>Encuentra tu <span>Hogar</span> Ideal</h1>
+            <p>Con la mejor selección de inmuebles para ti</p>
+            <div class="butons">
+                <a href="#popular" class="btn-1">Explorar</a>
+                <a href="#contacto" class="btn-2">Contáctanos</a>
+            </div>
+        </div>
+    </header>
+    <section id="popular" class="popular">
+        <h2 class="h2">Inmuebles Populares</h2>
+        <div class="popular-content">
+            <div class="product-content">
+                <img src="images/images/img1.jpg" alt="Inmueble 1">
+                <div class="product-txt">
+                    <h3>Apartamento en el Centro</h3>
+                    <p>Descripción del inmueble: 2 habitaciones, 1 baño, cocina equipada, cerca de transporte público.. 
+                        Ubicación: Calle Mayor, 123, Ciudad.</p>
+                    <div class="price">
+                        <p>$150,000</p>
+                        <a href="detalle_inmueble1.html" class="btn-2">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-content">
+                <img src="images/images/img2.jpg" alt="Inmueble 2">
+                <div class="product-txt">
+                    <h3>Casa Familiar en las Afueras</h3>
+                    <p>Descripción del inmueble:  4 habitaciones, 3 baños, jardín amplio, garaje. Ubicación: Avenida de la Paz, 45, Ciudad.</p>
+                    <div class="price">
+                        <p>$200,000</p>
+                        <a href="detalle_inmueble2.html" class="btn-2">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-content">
+                <img src="images/images/img3.jpg" alt="Inmueble 3">
+                <div class="product-txt">
+                    <h3>Loft Moderno en el Barrio Viejo</h3>
+                    <p>Descripción: Estilo industrial, 1 habitación, 1 baño, cerca de restaurantes y tiendas.. Ubicación: Plaza del Sol, 9, Ciudad.</p>
+                    <div class="price">
+                        <p>$250,000</p>
+                        <a href="detalle_inmueble3.html" class="btn-2">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class="contact">
+        <h2 class="contac-content">Contáctanos</h2>
+        <form action="enviar_correo.php" method="post">
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="email" name="correo" placeholder="Correo electrónico" required>
+            <button class="btn-3" type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-logo">Tu Logo</div>
+        <div class="footer-links">
+            <a href="#">Inicio</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+            <a href="#">Sobre Nosotros</a>
+        </div>
+        <div class="footer-socials">
+            <a href="https://facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="footer-copy">Copyright 2024</div>
+    </footer>
+</body>
+</html>
